@@ -38,3 +38,110 @@
        url('assets/fonts/inter-v7-latin-700.svg#Inter') format('svg'); /* Legacy iOS */
 }
 
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: background: #ffffff;
+;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  background-color: black;
+  padding: 20px;
+}
+
+.header-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header-item {
+  margin-right: 30px;
+}
+
+.header-link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 50px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header-nav {
+  margin-left: auto;
+}
+
+.switch-lang {
+  align-self: center;
+  margin-right: 0;
+}
+.en {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  color: #BDAE82;
+  text-decoration: none;
+}
+
+.ru {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.slash {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.header-logo {
+  align-self: center;
+}
+
+.header-link:hover {
+  color: #bdae82;
+}
+
+.header-logo {
+  background-image: url('assets/svg/logo.svg');
+  background-size: contain;
+  background-repeat: no-repeat;  
+  transition: 0.3s;
+}
+.header-logo:hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+}
