@@ -60,6 +60,10 @@ body {
   padding: 0 20px;
 }
 
+:root {
+  --color-gold: #bdae82;
+  }
+
 /*Header styles start*/
 
 header {
@@ -75,6 +79,8 @@ header {
   align-items: flex-end;
   justify-content: space-between;
   padding: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .header-list {
@@ -208,3 +214,157 @@ header {
   color: #ffffff;
 }
 /*Hero styles end
+
+/*Skills styles start*/
+
+.skills-title {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 80px;
+  color: var(--color-gold);
+  text-align: center;
+  margin: 0 auto;
+  border: solid 2px #000;
+  width: 152px;
+  height: 80px;
+  background-color: #000;
+}
+
+.skills {
+  margin-top: 0px;
+  padding-top: 0px;
+  background-color: #000;
+  height: 482px;
+}
+
+.skills-line{
+  padding-top: 100px;
+  background-image: linear-gradient(to top, #000 39px, #bdae82 39px, 
+        #bdae82 41px, #000 41px);
+  margin: 0 auto;
+  max-width: 700px;
+      }
+
+.skills-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 60px;
+}
+
+.skills-camera {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 240px;
+}
+
+.camera-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.camera-subtitle {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 36px;
+  text-align: center;
+  color: #fff;
+}
+
+.logo-camera {
+  align-items: center;
+}
+
+.video-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.video-subtitle {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 36px;
+  text-align: center;
+  color: #fff;
+}
+
+.skills-video {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 240px;
+}
+
+.skills-image {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 240px;
+}
+
+.image-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.image-subtitle {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 36px;
+  text-align: center;
+  color: #fff;
+}
+
+.mic-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.mic-subtitle {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 36px;
+  text-align: center;
+  color: #fff;
+}
+
+.skills-mic {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 240px;
+}
+
+
+/*Skills styles end*/
