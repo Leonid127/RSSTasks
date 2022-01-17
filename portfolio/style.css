@@ -756,3 +756,127 @@ input {
   padding-right: 230px;
 }
 /*Contacts style end*/
+
+/*Footer styles start*/
+
+.footer {
+  height: 150px;
+  max-width: 1400px; 
+  background-color: #000;
+  margin: 0 auto;
+}
+
+.footer-copy {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 50px;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.footer-date {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 50px;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.footer-github {
+  margin-right: 20px;
+}
+
+.link-github {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 50px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-github:hover {
+  color: var(--color-gold);
+}
+
+.footer-data {
+
+}
+
+.rolling-scopes {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 50px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.rolling-scopes:hover {
+   color: var(--color-gold);
+}
+
+.rolling-scopes-school {
+
+}
+
+.footer-div {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.social-list-img-inst {
+  background-image: url('assets/svg/inst.svg');
+  background-size: contain;
+  background-repeat: no-repeat;  
+  transition: 0.3s;
+  margin-right: 20px;
+}
+.social-list-img-fb {
+  background-image: url('assets/svg/fb.svg');
+  background-size: contain;
+  background-repeat: no-repeat;  
+  transition: 0.3s;
+  margin-right: 20px;
+}
+  .social-list-img-tw {
+  background-image: url('assets/svg/tw.svg');
+  background-size: contain;
+  background-repeat: no-repeat;  
+  transition: 0.3s;
+  margin-right: 20px;
+}
+  .social-list-img-pint {
+  background-image: url('assets/svg/pinterest.svg');
+  background-size: contain;
+  background-repeat: no-repeat;  
+  transition: 0.3s;
+}
+
+.social-list-img-inst:hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+}
+
+.social-list-img-fb:hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+}
+
+.social-list-img-tw:hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+}
+
+.social-list-img-pint:hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+}
+/*Footer styles end*/
