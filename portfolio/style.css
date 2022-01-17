@@ -460,59 +460,19 @@ header {
 }
 
 .winter-button:hover {
-  width: 220px;
-  height: 55px;
-  background-color: #bdae82;
-  cursor: pointer;
-  font-family: inherit;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 40px;
-  color: #000;
+  color: #fff;
 }
 
 .spring-button:hover {
-  width: 220px;
-  height: 55px;
-  background-color: #bdae82;
-  cursor: pointer;
-  font-family: inherit;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 40px;
-  color: #000;
+  color: #fff;
 }
 
 .summer-button:hover  {
-  width: 220px;
-  height: 55px;
-  background-color: #bdae82;
-  cursor: pointer;
-  font-family: inherit;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 40px;
-  color: #000;
+  color: #fff;
 }
 
 .autumn-button:hover  {
-  width: 220px;
-  height: 55px;
-  background-color: #bdae82;
-  cursor: pointer;
-  font-family: inherit;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 40px;
-  color: #000;
+  color: #fff;
 }
 
 .portfolio-buttons {
@@ -579,6 +539,16 @@ header {
 
 .video-player-button {
   position: absolute;
+  background-image: url('assets/svg/play_button.svg');
+  background-size: contain;
+  background-repeat: no-repeat;  
+  transition: 0.3s;
+  cursor: pointer
+}
+
+.video-player-button:hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
 }
 
 /*Video styles end*/
@@ -680,4 +650,109 @@ header {
   padding-left: 95px;
   padding-top: 20px;
 }
+
 /*Price styles end*/
+
+/*Contacts style start*/
+
+.contacts {
+  background: url('./assets/img/contacts.jpg');
+  height: 700px;
+  background-position: center center;
+}
+
+.contacts-container {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 445px;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 20px;
+} 
+
+.contacts-title {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 80px;
+  color: var(--color-gold);
+  padding-right: 225px;
+}
+
+::placeholder {
+  font-family: inherit;
+  color: #bdae82;
+  font-size: 20px;
+}
+
+ textarea {
+  resize: none;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid 1px var(--color-gold);
+  color: var(--color-gold);
+  font-size: 20px;
+
+ }
+
+input {
+  background-color: rgba(0, 0, 0, 0);
+  border: solid 1px var(--color-gold);
+  color: var(--color-gold);
+  font-size: 20px;
+}
+
+ .contacts-email-div {
+  margin-bottom: 20px;
+ }
+
+.contacts-phone-div {
+  margin-bottom: 20px;
+}
+
+.contacts-message-div {
+  margin-bottom: 30px;
+}
+
+.contacts-button {
+  width: 220px;
+  height: 55px;
+  background-color: #bdae82;
+  cursor: pointer;
+  font-family: inherit;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  color: #000;
+}
+
+.contacts-button:hover {
+  color: #fff;
+}
+
+.contacts-email {
+  width: 450px;
+  height: 50px;
+  padding-left: 20px;
+}
+
+.contacts-phone {
+  width: 450px;
+  height: 50px;
+  padding-left: 20px;
+}
+
+.contacts-message {
+  width: 450px;
+  height: 100px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.contacts-but {
+  padding-right: 230px;
+}
+/*Contacts style end*/
