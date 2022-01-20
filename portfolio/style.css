@@ -1,5 +1,5 @@
  /*merriweather-regular - latin */
-/@font-face {
+@font-face {
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 400;
@@ -52,13 +52,13 @@ body {
   font-size: 16px;
   line-height: 1.2;
   font-weight: normal;
-  color: background: #ffffff;
+  color: background #ffffff;
+  background-color: #000;
 }
 
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 20px;
 }
 
 :root {
@@ -79,19 +79,24 @@ header {
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: space-between;
-  padding: 20px;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
+  margin-top: 5px;
+  margin-left: 20px;
 }
 
 .header-list {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
+  margin-right: 30px;
 }
 
 .header-item {
   margin-right: 30px;
+}
+
+.header-item_contacts {
+
+
 }
 
 .header-link {
@@ -106,11 +111,12 @@ header {
 
 .header-nav {
   margin-left: auto;
+  margin-right: 6px;
 }
 
 .switch-lang {
   align-self: center;
-  margin-right: 0;
+  margin-right: 32px;
 }
 .en {
   font-family: Inter;
@@ -132,6 +138,8 @@ header {
   text-align: center;
   color: #FFFFFF;
   text-decoration: none;
+  position: relative;
+  right: -15px;
 }
 .slash {
   font-family: Inter;
@@ -141,6 +149,7 @@ header {
   line-height: 50px;
   text-align: center;
   color: #FFFFFF;
+  margin-right: -7px;
 }
 
 .header-logo {
@@ -184,7 +193,7 @@ header {
   font-size: 60px;
   line-height: 120px;
   color: #ffffff;
-  margin-bottom: 10px;
+  margin-bottom: -11px;
 }
 
 .hero-subtitle {
@@ -196,6 +205,7 @@ header {
   font-size: 20px;
   line-height: 40px;
   color: #ffffff;
+  margin-bottom: 26px;
 }
 
 .hero-button {
@@ -213,6 +223,12 @@ header {
 
 .hero-button:hover {
   color: #ffffff;
+}
+
+.container-hero {
+    margin: 0 auto;
+    max-width: 1440px;
+    margin-top: -40px;
 }
 /*Hero styles end
 
@@ -280,10 +296,28 @@ header {
   line-height: 36px;
   text-align: center;
   color: #fff;
+  max-width: 280px;
+  max-height: 72px;
+  position: relative;
+  left: 20px;
+  bottom: 25px;
 }
 
 .logo-camera {
   align-items: center;
+  margin-bottom: 24px;
+}
+
+.logo-video {
+  margin-bottom: 24px;
+}
+
+.logo-image {
+  margin-bottom: 24px;
+}
+
+.logo-mic {
+  margin-bottom: 24px;
 }
 
 .video-title {
@@ -304,6 +338,11 @@ header {
   line-height: 36px;
   text-align: center;
   color: #fff;
+  max-width: 280px;
+  max-height: 72px;
+  position: relative;
+  left: 20px;
+  bottom: 25px;
 }
 
 .skills-video {
@@ -338,6 +377,11 @@ header {
   line-height: 36px;
   text-align: center;
   color: #fff;
+  max-width: 280px;
+  max-height: 72px;
+  position: relative;
+  left: 20px;
+  bottom: 25px;
 }
 
 .mic-title {
@@ -358,6 +402,11 @@ header {
   line-height: 36px;
   text-align: center;
   color: #fff;
+  max-width: 280px;
+  max-height: 72px;
+  position: relative;
+  left: 20px;
+  bottom: 25px;
 }
 
 .skills-mic {
@@ -374,7 +423,7 @@ header {
 .portfolio {
   height: 1500px;
   background-color: #000;
-  padding-bottom: 0px: 
+  padding-bottom: 0px;
 }
 
 .portfolio-line {
@@ -491,7 +540,8 @@ header {
 .portfolio-img {
   width: 450px;
   height: 560px;
-  padding: 12px;
+  margin-bottom: 25px;
+  margin-left: 2px;
 }
 
 /*Portfolio styles end*/
@@ -504,11 +554,12 @@ header {
 }
 
 .video-player-line {
-  padding-top: 80px;
+  margin-bottom: 160px;
   background-image: linear-gradient(to top, #000 39px, #bdae82 39px, 
         #bdae82 41px, #000 41px);
   margin: 0 auto;
   max-width: 700px;
+  padding-top: 1px;
 }
 
 .video-player-title {
@@ -524,12 +575,12 @@ header {
   width: 160px;
   height: 80px;
   background-color: #000;
+  margin-top: 98px;
 }
 
 .video-player-img {
-  width: 100%;
+  margin-top: 62px;
   height: 705px;
-  padding-top: 60px;
 }
 .video-player-button-img {
   position: relative;
@@ -540,6 +591,7 @@ header {
 
 .video-player-button {
   position: absolute;
+  bottom: 286px;
   background-image: url('assets/svg/play_button.svg');
   background-size: contain;
   background-repeat: no-repeat;  
@@ -557,12 +609,12 @@ header {
 /*Price styles start*/
 
 .price {
-  height: 845px;
+  height: 887px;
   background-color: #000;
 }
 
 .price-line {
-  padding-top: 90px;
+  padding-top: 143px;
   background-image: linear-gradient(to top, #000 39px, #bdae82 39px, 
         #bdae82 41px, #000 41px);
   margin: 0 auto;
@@ -589,7 +641,9 @@ header {
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
-  padding-top: 60px;
+  padding-top: 63px;
+  position: relative;
+  left: 1px;
 
 }
 
@@ -601,6 +655,8 @@ header {
   line-height: 56px;
   color: #fff;
   text-align: center;
+  margin-top: 40px;
+  margin-bottom: -4px;
 }
 
 .price-subtitle {
@@ -611,6 +667,7 @@ header {
   line-height: 48px;
   text-align: center;
   color: var(--color-gold);
+  margin-bottom: 5px;
 }
 
 .price-text {
@@ -642,14 +699,14 @@ header {
 }
 
 .price-item {
-  width: 420px;
+  width: 450px;
   height: 505px;
   border: solid 2px var(--color-gold);
 }
 
 .price-item-but {
-  padding-left: 95px;
-  padding-top: 20px;
+  padding-left: 112px;
+  padding-top: 24px;
 }
 
 /*Price styles end*/
@@ -658,8 +715,11 @@ header {
 
 .contacts {
   background: url('./assets/img/contacts.jpg');
+  max-width: 1440px;
   height: 700px;
   background-position: center center;
+  padding-top: 37px;
+  padding-right: 20px;
 }
 
 .contacts-container {
@@ -669,7 +729,6 @@ header {
   height: 445px;
   align-items: flex-end;
   justify-content: space-between;
-  padding-top: 20px;
 } 
 
 .contacts-title {
@@ -680,6 +739,8 @@ header {
   line-height: 80px;
   color: var(--color-gold);
   padding-right: 225px;
+  position: relative;
+  top: -8px;
 }
 
 ::placeholder {
@@ -728,6 +789,7 @@ input {
   font-size: 20px;
   line-height: 40px;
   color: #000;
+  margin-top: -4px;
 }
 
 .contacts-button:hover {
@@ -762,7 +824,7 @@ input {
 
 .footer {
   height: 150px;
-  max-width: 1400px; 
+  max-width: 1440px; 
   background-color: #000;
   margin: 0 auto;
 }
@@ -775,6 +837,21 @@ input {
   line-height: 50px;
   color: #fff;
   margin-right: 20px;
+}
+
+.footer-data {
+  margin-left: 18px;
+  margin-top: 3px
+}
+
+.rolling-scopes-school {
+  margin-top: 2px;
+  margin-left: -4px;
+}
+
+.social-list-footer {
+  margin-right: 20px;
+  margin-top: 12px;
 }
 
 .footer-date {
@@ -805,9 +882,6 @@ input {
   color: var(--color-gold);
 }
 
-.footer-data {
-
-}
 
 .rolling-scopes {
   font-family: Inter;
@@ -823,9 +897,6 @@ input {
    color: var(--color-gold);
 }
 
-.rolling-scopes-school {
-
-}
 
 .footer-div {
   display: flex;
@@ -845,14 +916,14 @@ input {
   background-size: contain;
   background-repeat: no-repeat;  
   transition: 0.3s;
-  margin-right: 20px;
+  margin-right: 15px;
 }
   .social-list-img-tw {
   background-image: url('assets/svg/tw.svg');
   background-size: contain;
   background-repeat: no-repeat;  
   transition: 0.3s;
-  margin-right: 20px;
+  margin-right: 13px;
 }
   .social-list-img-pint {
   background-image: url('assets/svg/pinterest.svg');
