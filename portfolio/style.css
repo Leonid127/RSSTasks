@@ -1,5 +1,5 @@
  /*merriweather-regular - latin */
-/@font-face {
+@font-face {
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 400;
@@ -52,7 +52,7 @@ body {
   font-size: 16px;
   line-height: 1.2;
   font-weight: normal;
-  color: background: #ffffff;
+  color: background #ffffff;
 }
 
 .container {
@@ -374,7 +374,7 @@ header {
 .portfolio {
   height: 1500px;
   background-color: #000;
-  padding-bottom: 0px: 
+  padding-bottom: 0px;
 }
 
 .portfolio-line {
@@ -805,9 +805,6 @@ input {
   color: var(--color-gold);
 }
 
-.footer-data {
-
-}
 
 .rolling-scopes {
   font-family: Inter;
@@ -823,9 +820,6 @@ input {
    color: var(--color-gold);
 }
 
-.rolling-scopes-school {
-
-}
 
 .footer-div {
   display: flex;
