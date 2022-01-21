@@ -1,4 +1,4 @@
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     .header-nav {
         display: none;
     }
@@ -50,5 +50,100 @@
         margin-top: -76px;
         margin-left: -20px;
     }
+
+    .skills-title {
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        width: 133px;
+    }
+
+    .skills-line {
+        width: 364px;
+        height: 80px;
+        margin-top: -296px;
+        padding-bottom: 63px;
+        margin-right: 178px;
+    }
+
+    .video-subtitle {
+        line-height: 22px;
+        margin-right: 48px;
+    }
+
+    .image-subtitle {
+        line-height: 22px;
+        left: 24px;
+    }
+
+    .camera-subtitle {
+        line-height: 22px;
+        left: 24px;
+    }
+
+    .mic-subtitle {
+        line-height: 22px;
+        margin-right: 50px;
+    }
+
+    .skills-items {
+            padding-top: 43px;
+        }
+
+    .logo-camera {
+        margin-left: 46px;
+    }
+
+    .skills-camera {
+        align-items: center;
+    }
+
+    .camera-title {
+        margin-left: 46px;
+        margin-bottom: 28px;
+        margin-top: 8px;
+    }
+
+    .skills-video {
+        align-items: center;
+    }
+
+    .logo-video {
+        margin-bottom: 7px;
+        margin-right: 9px;
+    }
+
+    .video-title {
+        margin-right: 9px;
+    }
+
+    .skills-image {
+        align-items: center;
+    }
+
+    .logo-image {
+        margin-bottom: 24px;
+        margin-top: 21px;
+        margin-left: 48px;
+        }
+
+    .image-title {
+        margin-top: 7px;
+        margin-left: 46px;
+    }
+    
+    .logo-mic {
+        margin-bottom: 4px;
+        margin-top: 22px;
+        margin-right: 9px;
+    }
+
+    .mic-title {
+        margin-right: 9px;
+    }
+
 
 }
