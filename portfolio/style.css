@@ -64,6 +64,7 @@ body {
   background-image: url(assets/img/hero.jpg);
   background-position: center 0px;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .container {
