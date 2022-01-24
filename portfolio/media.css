@@ -1,0 +1,311 @@
+@media (max-width: 768px) {
+    .header-nav {
+        display: none;
+    }
+
+    .header-logo {
+        margin-right: 484px;
+        margin-top: 0;
+        position: relative;
+        left: 40px;
+    }
+
+    .slash {
+        margin-right: 3px;
+    }
+
+    .header-container {
+        background-image: url(assets/img/bg_header.jpg);
+        background-position: center 0;
+        background-repeat: no-repeat;
+
+    }
+
+    .hero-title {
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 64px;
+        margin-bottom: 5px;
+    }
+    .main-container {
+        background-image: url(assets/img/bg_header.jpg);
+        background-position: center 21px;
+        background-repeat: no-repeat;
+        background-size: auto 593px;
+    }
+    
+    .hero-subtitle {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+        max-width: 390px;
+        height: 72px;
+        margin-bottom: 60px;
+    }
+
+    .container-hero {
+        margin-top: -76px;
+        margin-left: -20px;
+    }
+
+    .skills-title {
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        width: 133px;
+    }
+
+    .skills-line {
+        width: 364px;
+        height: 80px;
+        margin-top: -296px;
+        padding-bottom: 63px;
+        margin-right: 202px;
+    }
+
+    .video-subtitle {
+        line-height: 22px;
+        margin-right: 58px;
+        margin-left: -27px;
+    }
+
+    .image-subtitle {
+        line-height: 22px;
+        left: 19px;
+    }
+
+    .camera-subtitle {
+        line-height: 22px;
+        left: 18px;
+    }
+
+    .mic-subtitle {
+        line-height: 22px;
+        margin-left: -22px;
+    }
+
+    .skills-items {
+            padding-top: 43px;
+        }
+
+    .logo-camera {
+        margin-left: 33px;
+    }
+
+    .skills-camera {
+        align-items: center;
+    }
+
+    .camera-title {
+        margin-left: 38px;
+        margin-bottom: 28px;
+        margin-top: 8px;
+    }
+
+    .skills-video {
+        align-items: center;
+    }
+
+    .logo-video {
+        margin-bottom: 7px;
+        margin-right: 46px;
+    }
+
+    .video-title {
+        margin-right: 45px;
+        margin-top: 26px;
+    }
+
+    .skills-image {
+        align-items: center;
+    }
+
+    .logo-image {
+        margin-bottom: 24px;
+        margin-top: 21px;
+        margin-left: 37px;
+        }
+
+    .image-title {
+        margin-top: 7px;
+        margin-left: 38px;
+    }
+    
+    .logo-mic {
+        margin-bottom: 4px;
+        margin-top: 22px;
+        margin-right: 44px;
+    }
+
+    .mic-title {
+        margin-right: 44px;
+    }
+
+    .portfolio-title {
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 80px;
+        text-align: center;
+        margin-bottom: -10px;
+        margin-top: 224px;
+        width: 186px;
+        padding-bottom: 78px;
+    }
+
+    .portfolio-line {
+        padding-top: 104px;
+        max-width: 363px;
+    }
+
+    .portfolio-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 60px;
+        margin-left: 164px;
+        margin-bottom: -2px;
+    }
+
+    .winter-button {
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+    .summer-button {
+        margin-right: 5px;
+    }
+
+    .video-player-title {
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 80px;
+        text-align: center;
+        width: 131px;
+    }
+
+    .video-player-line {
+        max-width: 363px;
+        padding-top: 2603px;
+        margin-bottom: 52px;
+    }
+
+        .video-player-img {
+            margin-top: 2px;
+            height: 414px;
+            width: 105%;
+            margin-left: 40px;
+            /* overflow: hidden; */
+        }
+    .video-player-button {
+        width: 66px;
+        position: absolute;
+        right: 352px;
+        top: 173px;
+    }
+    
+    .video-player-button-img {
+        overflow: hidden;
+      
+    }
+
+    .price-line {
+        max-width: 367px;
+        margin-top: 2288px;
+        margin-bottom: -11px;
+    }
+
+    .price-title {
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 80px;
+        text-align: center;
+        width: 122px;
+        margin-top: -2px;
+    }
+
+    .price-item {
+        width: 420px;
+        margin-bottom: 50px;
+    }
+
+    .price-item-button {
+        position: relative;
+        right: 15px;
+        width: 220px;
+    }
+
+    .contacts {
+        margin-top: 1078px;
+        min-width: 768px;
+        height: 600px;
+    }
+
+    .contacts-title {
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 64px;
+        text-align: center;
+        margin-left: 243px;
+        margin-top: 31px;
+        margin-bottom: 32px;
+    }
+
+    .contacts-container {
+        align-items: center;
+    }
+
+    .contacts-email {
+        padding-left: 20px;
+        margin-left: 20px;
+        padding-top: 2px;
+    }
+
+    .contacts-phone {
+        margin-left: 20px;
+    }
+
+    .contacts-message {
+        margin-left: 20px;
+        padding-top: 13px;
+    }
+
+    .contacts-button {
+        margin-left: 249px;
+        margin-top: -4px;
+    }
+
+    .footer-div {
+        display: block;
+        text-align: center;
+        padding-top: 0;
+    }
+    .footer-data {
+        margin-left: 16px;
+        margin-top: 15px;
+    }
+
+    .rolling-scopes-school {
+        margin-top: -10px;
+        margin-left: -4;
+    }
+
+    .social-list-footer {
+        margin-right: 2px;
+        margin-top: 16px;
+    }
+
+}
