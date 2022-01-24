@@ -38,6 +38,7 @@
        url('assets/fonts/inter-v7-latin-700.svg#Inter') format('svg'); /* Legacy iOS */
 }
 
+
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -45,6 +46,10 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+/* 
+* {
+  outline: 1px solid red;
+ } */
 
 body {
   font-family: 'Inter';
@@ -64,7 +69,6 @@ body {
   background-image: url(assets/img/hero.jpg);
   background-position: center 0px;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .container {
@@ -122,7 +126,7 @@ header {
 }
 
 .switch-lang {
-  margin-right: 15px;
+  margin-right: 32px;
 
 }
 .en {
@@ -589,7 +593,7 @@ header {
 
 .video-player-img {
   margin-top: 62px;
-  height: 705px;
+  width: 100%;
 }
 .video-player-button-img {
   position: relative;
@@ -599,9 +603,10 @@ header {
 }
 
 .video-player-button {
+  width: 130px;
   position: absolute;
-  bottom: 286px;
-  background-image: url('assets/svg/play_button.svg');
+  right: 653px;
+  bottom: 307px;
   background-size: contain;
   background-repeat: no-repeat;  
   transition: 0.3s;
