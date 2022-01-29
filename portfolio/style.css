@@ -319,18 +319,26 @@ header {
 .logo-camera {
   align-items: center;
   margin-bottom: 24px;
+  width: 62px;
+  margin-left: 128px;
 }
 
 .logo-video {
   margin-bottom: 24px;
+  width: 62px;
+  margin-left: 128px;
 }
 
 .logo-image {
   margin-bottom: 24px;
+  width: 62px;
+  margin-left: 128px;
 }
 
 .logo-mic {
   margin-bottom: 24px;
+  width: 32px;
+  margin-left: 143px;
 }
 
 .video-title {
