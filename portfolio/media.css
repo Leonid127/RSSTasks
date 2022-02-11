@@ -97,6 +97,7 @@
 
     .logo-camera {
         margin-left: 33px;
+        width: 62px;
     }
 
     .skills-camera {
@@ -115,7 +116,8 @@
 
     .logo-video {
         margin-bottom: 7px;
-        margin-right: 46px;
+        margin-right: 172px;
+        width: 62px;
     }
 
     .video-title {
@@ -131,6 +133,7 @@
         margin-bottom: 24px;
         margin-top: 21px;
         margin-left: 37px;
+        width: 62px;
         }
 
     .image-title {
@@ -141,7 +144,8 @@
     .logo-mic {
         margin-bottom: 4px;
         margin-top: 22px;
-        margin-right: 44px;
+        margin-left: 123px;
+        width: 32px;
     }
 
     .mic-title {
