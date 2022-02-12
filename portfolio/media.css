@@ -21,6 +21,26 @@
 
     }
 
+    .switch-lang{
+        position: absolute;
+        right: 130px;
+    }
+
+    .theme {
+        position: absolute;
+        height: 54px;
+        right: 84px;
+    }
+
+  
+
+    .burger {
+        display: flex;
+        position: absolute;
+        top: 20px;
+        right: 15px;
+    }
+
     .hero-title {
         font-family: Merriweather;
         font-style: normal;
@@ -252,7 +272,6 @@
 
     .contacts {
         margin-top: 1078px;
-        min-width: 768px;
         height: 600px;
     }
 

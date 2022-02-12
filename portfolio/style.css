@@ -126,9 +126,41 @@ header {
 }
 
 .switch-lang {
-  margin-right: 32px;
+  width: 70px;
+  height: 50px;
+  margin-right: 25px;
 
 }
+
+.theme {
+  background-image: url(assets/svg/carbon_sun.svg);
+  background-repeat: no-repeat;
+  width: 45px;
+  cursor: pointer;
+}
+
+.burger {
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  display: none;
+  padding: 11px 0;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: +1000000000000000000;
+  transition: all .5s ease;
+  position: relative;
+}
+
+.burger-line {
+  width: 50px;
+  height: 3px;
+  background-color:  #ecf0f1;
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
 .en {
   font-family: Inter;
   font-style: normal;
@@ -838,7 +870,7 @@ input {
 }
 
 .contacts-but {
-  padding-right: 230px;
+  margin-right: 226px;
 }
 /*Contacts style end*/
 
