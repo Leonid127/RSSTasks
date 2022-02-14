@@ -25,3 +25,5 @@ function closeMenu (event) {
 }
 
 menu.addEventListener('click', closeMenu);
+
+// Commit example
