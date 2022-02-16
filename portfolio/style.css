@@ -517,7 +517,7 @@ header {
   border: 1px solid #bdae82;
 }
 
-.spring-button {
+.portfolio-btn {
   width: 220px;
   height: 55px;
   background-color: #000;
@@ -532,41 +532,17 @@ header {
   border: 1px solid #bdae82;
 }
 
-.summer-button {
-  width: 220px;
-  height: 55px;
-  background-color: #000;
-  cursor: pointer;
-  font-family: inherit;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 40px;
-  color: var(--color-gold);
-  border: 1px solid #bdae82;
-}
 
-.autumn-button {
-  width: 220px;
-  height: 55px;
-  background-color: #000;
-  cursor: pointer;
-  font-family: inherit;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 40px;
-  color: var(--color-gold);
-  border: 1px solid #bdae82;
-}
-
-.winter-button:hover {
+.portfolio-btn:hover {
   color: #fff;
 }
 
-.spring-button:hover {
+.portfolio-btn.active {
+  background-color: #bdae82;
+  color: #000;
+}
+
+/* .spring-button:hover {
   color: #fff;
 }
 
@@ -576,7 +552,7 @@ header {
 
 .autumn-button:hover  {
   color: #fff;
-}
+} */
 
 .portfolio-buttons {
   padding-top: 60px;
