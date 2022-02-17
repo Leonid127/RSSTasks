@@ -14,7 +14,7 @@
 	<link rel="stylesheet" href="media.css">
 	<title>portfolio</title>
 </head>
-<body>
+<body class="body">
 	<header class="header">
 		<div class="container header-container">
 				<div class="header-logo">
@@ -26,26 +26,26 @@
 			<nav class="header-nav">
 				<ul class="header-list">
 					<li class="header-item">
-						<a href="#skills" class="header-link">Skills</a>
+						<a href="#skills" class="header-link" data-i18="skills">Skills</a>
 					</li>
 					<li class="header-item">
-						<a href="#portfolio" class="header-link">Portfolio</a>
+						<a href="#portfolio" class="header-link" data-i18="portfolio">Portfolio</a>
 					</li>
 					<li class="header-item">
-						<a href="#video" class="header-link">Video</a>
+						<a href="#video" class="header-link" data-i18="video">Video</a>
 					</li>
 					<li class="header-item">
-						<a href="#price" class="header-link">Price</a>
+						<a href="#price" class="header-link" data-i18="price">Price</a>
 					</li>
 					<li class="header-item_contacts">
-						<a href="#contacts" class="header-link">Contacts</a>
+						<a href="#contacts" class="header-link" data-i18="contacts">Contacts</a>
 					</li>
 				</ul>
 			</nav>
 			<div class="switch-lang">
-				<span><a href="/" class="en">en</a></span>
+				<span><a href="#!" class="en lang-item">en</a></span>
 				<span class="slash">/</span>
-				<span><a href="/" class="ru">ru</a></span>
+				<span><a href="#!" class="ru lang-item">ru</a></span>
 			</div>
 
 			<div class="theme">
@@ -63,39 +63,39 @@
 		<div class="container main-container">
 			<section class="hero">
 				<div class="container-hero">
-					<h1 class="hero-title">Alexa Rise</h1>
-					<p class="hero-subtitle">Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise</p>
-					<button class="hero-button">Hire me</button>
+					<h1 class="hero-title" data-i18="hero-title">Alexa Rise</h1>
+					<p class="hero-subtitle" data-i18="hero-text">Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise</p>
+					<button class="hero-button" data-i18="hire">Hire me</button>
 				</div>
 			</section> 
 
 			<section class="skills" >
 				<div class="container">
 					<div class="skills-line">
-					<h2 class="skills-title" id="skills">Skills</h2>
+					<h2 class="skills-title" id="skills" data-i18="skills">Skills</h2>
 					</div>
 				</div>
 
 				<div class="skills-items">
 					<div class="skills-camera">
 						<img src="assets/svg/camera.svg" alt="logo camera" class="logo-camera">
-						<h4 class="camera-title">Digital photography</h4>
-						<p class="camera-subtitle">High-quality photos in the studio and on the nature</p>
+						<h4 class="camera-title" data-i18="skill-title-1">Digital photography</h4>
+						<p class="camera-subtitle" data-i18="skill-text-1">High-quality photos in the studio and on the nature</p>
 					</div>
 					<div class="skills-video">
 						<img src="assets/svg/video.svg" alt="logo video" class="logo-video">
-						<h4 class="video-title">Video shooting</h4>
-						<p class="video-subtitle">Capture your moments so that they always stay with you</p>
+						<h4 class="video-title" data-i18="skill-title-2">Video shooting</h4>
+						<p class="video-subtitle" data-i18="skill-text-2">Capture your moments so that they always stay with you</p>
 					</div>
 					<div class="skills-image">
 						<img src="assets/svg/image.svg" alt="logo video" class="logo-image">
-						<h4 class="image-title">Retouch</h4>
-						<p class="image-subtitle">I strive to make photography surpass reality</p>
+						<h4 class="image-title" data-i18="skill-title-3">Retouch</h4>
+						<p class="image-subtitle" data-i18="skill-text-3">I strive to make photography surpass reality</p>
 					</div>
 					<div class="skills-mic">
 						<img src="assets/svg/mic.svg" alt="logo mic" class="logo-mic">
-						<h4 class="mic-title">Audio</h4>
-						<p class="mic-subtitle">Professional sounds recording for video, advertising, portfolio</p>
+						<h4 class="mic-title" data-i18="skill-title-4">Audio</h4>
+						<p class="mic-subtitle" data-i18="skill-text-4">Professional sounds recording for video, advertising, portfolio</p>
 					</div>
 				</div>
 				
@@ -104,13 +104,13 @@
 			<section class="portfolio" >
 				<div class="container">
 					<div class="portfolio-line">
-						<h2 class="portfolio-title" id="portfolio">Portfolio</h2>
+						<h2 class="portfolio-title" id="portfolio" data-i18="portfolio">Portfolio</h2>
 					</div>
 					<div class="portfolio-buttons">
-						<button class="portfolio-btn" data-season="winter">Winter</button>
-						<button class="portfolio-btn" data-season="spring">Spring</button>
-						<button class="portfolio-btn" data-season="summer">Summer</button>
-						<button class="portfolio-btn active" data-season="autumn">Autumn</button>
+						<button class="portfolio-btn" data-season="winter" data-i18="winter">Winter</button>
+						<button class="portfolio-btn" data-season="spring" data-i18="spring">Spring</button>
+						<button class="portfolio-btn" data-season="summer" data-i18="summer">Summer</button>
+						<button class="portfolio-btn active" data-season="autumn" data-i18="autumn">Autumn</button>
 					</div>
 					<div class="portfolio-items">
 						<img src="./assets/img/autumn/1.jpg" alt="portfolio-img" class="portfolio-img">
@@ -126,7 +126,7 @@
 			 <section class="video-player" >
 				<div class="container">
 					<div class="video-player-line">
-						<h2 class="video-player-title" id="video">Video</h2>
+						<h2 class="video-player-title" id="video" data-i18="video">Video</h2>
 					</div>
 					<div class="video-player-button-img">
 						<img src="assets/img/video-player.jpg" alt="player" class="video-player-img">
@@ -138,39 +138,45 @@
 			<section class="price" >
 				<div class="container">
 					<div class="price-line">
-						<h2 class="price-title" id="price">Price</h2>
+						<h2 class="price-title" id="price" data-i18="price">Price</h2>
 					</div>
 
 					<div class="price-items">
 						<div class="price-item">
 							<h3 class="price-item-title">Standard</h3>
 							<p class="price-subtitle">500 $</p>
-							<p class="price-text">One location<br>
-												120 photos in color<br>
-												12 photos in retouch<br>
-												Readiness 2-3 weeks<br>
-												Make up, visage<br></p>
+							<p class="price-text-block">
+								<span class="price-text" data-i18="price-description-1-span-1">One location</span><br>
+								<span class="price-text" data-i18="price-description-1-span-2">120 photos in color</span><br>
+								<span class="price-text" data-i18="price-description-1-span-3">12 photos in retouch</span><br>
+								<span class="price-text" data-i18="price-description-1-span-4">Readiness 2-3 weeks</span><br>
+								<span class="price-text" data-i18="price-description-1-span-5">Make up, visage</span><br>
+							</p>
 							<div class="price-item-but"><button class="price-item-button">Order shooting</button></div>
 						</div>
 						<div class="price-item">
 							<h3 class="price-item-title">Premium</h3>
 							<p class="price-subtitle">700 $</p>
-							<p class="price-text">One or two locations<br>
-												200 photos in color<br>
-												20 photos in retouch<br>
-												Readiness 1-2 weeks<br>
-												Make up, visage<br></p>
+							<p class="price-text-block">
+								<span class="price-text" data-i18="price-description-2-span-1">One or two locations</span><br>
+								<span class="price-text" data-i18="price-description-2-span-2">200 photos in color</span><br>
+								<span class="price-text" data-i18="price-description-2-span-3">20 photos in retouch</span><br>
+								<span class="price-text" data-i18="price-description-2-span-4">Readiness 1-2 weeks</span><br>
+								<span class="price-text" data-i18="price-description-2-span-5">Make up, visage</span><br>
+							</p>
 							<div class="price-item-but"><button class="price-item-button">Order shooting</button></div>
 						</div>
 						<div class="price-item">
 							<h3 class="price-item-title">Gold</h3>
 							<p class="price-subtitle">1000 $</p>
-							<p class="price-text">Three locations or more<br>
-												300 photos in color<br>
-												50 photos in retouch<br>
-												Readiness 1 week<br>
-												Make up, visage, hairstyle<br></p>
-							<div class="price-item-but"><button class="price-item-button">Order shooting</button></div>
+							<p class="price-text">
+								<span class="price-text" data-i18="price-description-3-span-1">Three locations or more</span><br>
+								<span class="price-text" data-i18="price-description-3-span-2">300 photos in color</span><br>
+								<span class="price-text" data-i18="price-description-3-span-3">50 photos in retouch</span><br>
+								<span class="price-text" data-i18="price-description-3-span-4">Readiness 1 week</span><br>
+								<span class="price-text" data-i18="price-description-3-span-5">Make up, visage, hairstyle</span><br>
+							</p>
+							<div class="price-item-but"><button class="price-item-button" data-i18="order">Order shooting</button></div>
 						</div>
 					</div>
 				</div>
@@ -179,12 +185,12 @@
 			<section class="contacts" id="contacts">
 				<div class="container">
 					<div class="contacts-container">
-						<h2 class="contacts-title">Contact me</h2>
+						<h2 class="contacts-title" data-i18="contact-me">Contact me</h2>
 						<div class="contacts-email-div"><input type="email" class="contacts-email" placeholder="E-mail"></div>
 						<div class="contacts-phone-div"><input type="tel" class="contacts-phone" placeholder="Phone"></div>
 						<div class="contacts-message-div"><textarea name="/" id="/" cols="30" rows="10" class="contacts-message" placeholder="Message"></textarea></div>
 						<div class="contacts-but">
-							<button class="contacts-button">Send message</button>
+							<button class="contacts-button" data-i18="send-message">Send message</button>
 						</div>
 					</div>
 				</div>

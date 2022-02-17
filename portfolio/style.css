@@ -520,7 +520,7 @@ header {
 .portfolio-btn {
   width: 220px;
   height: 55px;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0);
   cursor: pointer;
   font-family: inherit;
   font-family: Inter;
@@ -708,6 +708,10 @@ header {
   line-height: 36px;
   text-align: center;
   color: #fff;
+}
+
+.price-text-block {
+  text-align: center;
 }
 
 .price-item-button {
@@ -982,3 +986,24 @@ input {
     contrast(87%);
 }
 /*Footer styles end*/
+
+.light-theme {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  
+}
+
+.light-theme-2 {
+  background-image: linear-gradient(to top, #fff 40px, #000 39px, 
+    #000 41px, #fff 42px);
+  color: #000;
+}
+
+.light-theme-3 {
+  color: #000;
+}
+
+.light-theme-3:hover {
+  color: var(--color-gold);
+}
