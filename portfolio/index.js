@@ -156,6 +156,7 @@ portfolioBtns.addEventListener('click', changeClassActive);
 
 // ********************************************** translate
 
+const langItem = document.querySelectorAll('.lang-item')
 const switchLang = document.querySelector('.switch-lang');
 const elForTranslate = document.querySelectorAll('[data-i18]');
 
@@ -168,9 +169,15 @@ const getTranslate = (event) => {
         })
     }
 }
-
-
 switchLang.addEventListener('click', getTranslate);
+
+const changeLangClassActive = (event) => {
+    langItem.forEach((el) => {
+        el.classList.remove('active-lang');
+    });
+    event.target.classList.add('active-lang');
+}
+switchLang.addEventListener('click', changeLangClassActive);
 
 //****************************************** change theme */
 
@@ -194,10 +201,9 @@ const toggleTheme2 = () => {
     
     item.forEach((el) => 
     el.classList.toggle('light-theme-2'));
-    
-
 }
 themeBtn.addEventListener('click', toggleTheme2);
+
 
 const arrTheme3 = document.querySelectorAll('.portfolio-btn');
 
@@ -210,3 +216,11 @@ const toggleTheme3 = () => {
 }
 
 themeBtn.addEventListener('click', toggleTheme3);
+
+
+const theme = document.querySelector('.theme');
+
+const toggleThemeLight = () => {
+    theme.classList.toggle('theme-light');
+}
+theme.addEventListener('click', toggleThemeLight);

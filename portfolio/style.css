@@ -139,6 +139,18 @@ header {
   cursor: pointer;
 }
 
+.theme:hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+}
+
+.theme-light {
+  background-image: url(assets/svg/vector.svg);
+  background-repeat: no-repeat;
+  width: 45px;
+  cursor: pointer;
+}
+
 .burger {
   position: absolute;
   top: 0;
@@ -168,7 +180,7 @@ header {
   font-size: 20px;
   line-height: 50px;
   text-align: center;
-  color: #BDAE82;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -1006,4 +1018,8 @@ input {
 
 .light-theme-3:hover {
   color: var(--color-gold);
+}
+
+.active-lang {
+  color: #bdae82;
 }
